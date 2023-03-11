@@ -221,9 +221,9 @@ header {
 }
 /* end main section */
 .our__services {
-	padding: 87px 0 295px;
+	padding: 87px 0 120px;
 	background-image: url('../images/our-services-bg.png');
-	background-position: 1274px 578px;
+	background-position: 1645px 695px;
 	background-repeat: no-repeat;
 }
 .our__services .our__services-title {
@@ -256,19 +256,6 @@ header {
 	justify-content: space-between;
 	flex-direction: column;
 }
-
-
-.our__services-block:hover .our__services__block-img {
-	text-align-last: left;
-}
-.our__services-block:hover .our__services__block-text p{
-	margin-top: -35px;
-}
-.our__services-block:hover .our__services__block-text img{
-	width: 48.66px;
-	height: 48.66px;
-	margin-left: -10px;
-}
 .our__services__block-text{
 	text-align: center;
 	transition: .3s all ease;
@@ -282,18 +269,7 @@ header {
 	margin-top: 27px;
 	margin: 27px 0 23px 0;
 }
-.our__services__block-content{
-	transform: scale(0);
-	height: 0;
-	transition: all 0.3s linear;
-}
-.our__services-block:hover .our__services__block-content {
-	transform: scale(1);
-	height: 346px;
-	transition: all 0.3s linear;
-	overflow-x: hidden;
-	overflow-y: auto;
-}
+
 .our__services__block-content p{
 	font-style: normal;
 	font-weight: 300;
@@ -303,11 +279,9 @@ header {
 	margin-bottom: 28px;
 }
 .our__services__block-content p:last-child{
-	margin-bottom: 32px;
+	margin-bottom: 30px;
 }
-.our__services-block:hover .our__services__block-skills{
-	bottom: 43px;
-}
+
 .our__services__block-skills{
 	display: flex;
 	align-items: center;

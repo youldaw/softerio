@@ -669,7 +669,7 @@
 										<div class="row">
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio" checked="checked" />
+													<input type="radio" name="radio"/>
 													<div class="control__indicator"></div>
 													<span class="num">20 000 — 50 000 руб.</span>
 												</label>
@@ -678,35 +678,35 @@
 												<label class="control control--radio">
 													<input type="radio" name="radio" />
 													<div class="control__indicator"></div>
-													<span class="num">20 000 — 50 000 руб.</span>
+													<span class="num">50 000 — 100 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
 													<input type="radio" name="radio" />
 													<div class="control__indicator"></div>
-													<span class="num">20 000 — 50 000 руб.</span>
+													<span class="num">100 000 — 500 000 руб.</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" checked="checked"/>
+													<div class="control__indicator"></div>
+													<span class="num">500 000 — 1 000 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
 													<input type="radio" name="radio" />
 													<div class="control__indicator"></div>
-													<span class="num">20 000 — 50 000 руб.</span>
+													<span class="num">1 000 000 руб. — 2 000 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
 													<input type="radio" name="radio" />
 													<div class="control__indicator"></div>
-													<span class="num">20 000 — 50 000 руб.</span>
-												</label>
-											</div>
-											<div class="col-lg-6">
-												<label class="control control--radio">
-													<input type="radio" name="radio" />
-													<div class="control__indicator"></div>
-													<span class="num">20 000 — 50 000 руб.</span>
+													<span class="num">2 000 000 руб. — 3 000 000 руб.</span>
 												</label>
 											</div>
 										</div>
@@ -718,10 +718,10 @@
 								<div class="order__app-form">
 									<span>Контакты:</span>
 									<div class="form-group">
-										<input type="text" name="name" id="name" placeholder="Александр">
+										<input type="text" name="name" id="name" placeholder="Александр" onkeydown="return /[A-Za-zА-Яа-яЁё]/i.test(event.key)" required>
 									</div>
 									<div class="form-group">
-										<input type="tel" name="phone" id="phone" placeholder="Телефон">
+										<input type="tel" name="phone" id="phone" placeholder="Телефон" required>
 									</div>
 									<div class="form-group">
 										<textarea name="text" name="message" id="message" placeholder="Комментарий"></textarea>
