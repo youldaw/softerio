@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap5/bootstrap.min.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet icon" type="text/css" href="css/style.css" media="screen">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Personal Cabinet</title>
@@ -14,7 +14,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header for__all">
 			<div class="container">
 				<nav class="navbar navbar-expand-lg">
 					<a class="navbar-brand" href="#!"><img src="images/logo.svg" alt=""></a>
@@ -37,323 +37,765 @@
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Ещё <img src="images/dropdown-icon.svg" alt="">
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#!">Action</a></li>
-								<li><a class="dropdown-item" href="#!">Another action</a></li>
-								<li>
-									<hr class="dropdown-divider">
+									data-bs-toggle="dropdown" aria-expanded="false">
+									Ещё <img src="images/dropdown-icon.svg" alt="">
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="#!">Action</a></li>
+									<li><a class="dropdown-item" href="#!">Another action</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item" href="#!">Something else here</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="navbar-right">
+							<div class="navbar-right-info">
+								<a href="tel:8 (499) 348-82-16" class="header-tel">8 (499) 348-82-16</a>
+								<a href="mailto:hello@softerio.ru" class="header-mail">hello@softerio.ru</a>
+							</div>
+							<div class="navbar-right-social">
+								<a href="#!"> <img src="images/wt-icon.svg" alt=""></a>
+								<a href="#!"><img src="images/tg-icon.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="main-sec">
+				<div class="main-sec__circle-box">
+					<img class="main-sec__circle-img1 animation-icon" src="images/circle1.svg" alt="">
+					<img class="main-sec__circle-img3 animation-icon" src="images/circle1.svg" alt="">
+					<img class="main-sec__circle-img2 animation-icon" src="images/big-circle.svg" alt="">
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="main-text">
+								<h2>Разработка мобильных приложений и сервисов</h2>
+								<p><img src="images/main-icon.svg" alt=""> Знаем, как решить вашу задачу оптимальным
+									способом</p>
+								<p><img src="images/main-icon2.svg" alt=""> Подберем подходящее решение с учетом целей и
+									возможностей</p>
+							</div>
+							<div class="main-btns">
+								<a href="#!" class="red-btn">Заказать приложение</a>
+								<a href="#!" class="blue-btn">Онлайн-консультация</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="our__services">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title our__services-title">
+							<h2>Наши услуги</h2>
+							<p>Разработка мобильных приложений и веб-проектов для бизнеса и стартапов</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="our__services-block">
+								<div class="our__services__block-text">
+									<div class="our__services__block-img">
+										<img src="images/our-services-icon1.svg" alt="" height="100px">
+									</div>
+									<p>Разработка мобильных приложений</p>
+								</div>
+								<div class="our__services__block-content">
+									<p>Разрабатываем сайты персонально под ваш бизнес. Анализируем рынок и целевую
+										аудиторию в соответствии с задачами, которые вы хотите решить с помощью
+										веб-сайта.</p>
+									<p>Создаём web-сервисы для любого направления бизнеса: продажи, коммуникации,
+										управление, серверную часть и API, гибкие административные инструменты для
+										управления приложениями и сбора статистики.</p>
+									<p>Вы получаете продукт, привлекательный для пользователей и функциональный для вас.
+									</p>
+								</div>
+								<div class="our__services__block-skills">
+									<span>iOS</span>
+									<span>Android</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="our__services-block">
+								<div class="our__services__block-text">
+									<div class="our__services__block-img">
+										<img src="images/our-services-icon-3.svg" alt="" height="100px">
+									</div>
+									<p class="our__services__block-aftanom">Разработка мобильных приложений</p>
+								</div>
+								<div class="our__services__block-content">
+									<p>Разрабатываем сайты персонально под ваш бизнес. Анализируем рынок и целевую
+										аудиторию в соответствии с задачами, которые вы хотите решить с помощью
+										веб-сайта.</p>
+									<p>Создаём web-сервисы для любого направления бизнеса: продажи, коммуникации,
+										управление, серверную часть и API, гибкие административные инструменты для
+										управления приложениями и сбора статистики.</p>
+									<p>Вы получаете продукт, привлекательный для пользователей и функциональный для вас.
+									</p>
+								</div>
+								<div class="our__services__block-skills">
+									<span>Frontend</span>
+									<span>Backend</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4">
+							<div class="our__services-block">
+								<div class="our__services__block-text">
+									<div class="our__services__block-img">
+										<img src="images/our-services-icon3.svg" alt="" height="100px">
+									</div>
+									<p>Разработка мобильных приложений</p>
+								</div>
+								<div class="our__services__block-content">
+									<p>Разрабатываем сайты персонально под ваш бизнес. Анализируем рынок и целевую
+										аудиторию в соответствии с задачами, которые вы хотите решить с помощью
+										веб-сайта.</p>
+									<p>Создаём web-сервисы для любого направления бизнеса: продажи, коммуникации,
+										управление, серверную часть и API, гибкие административные инструменты для
+										управления приложениями и сбора статистики.</p>
+									<p>Вы получаете продукт, привлекательный для пользователей и функциональный для вас.
+									</p>
+								</div>
+								<div class="our__services__block-skills">
+									<span>Дизайн</span>
+									<span>ТЗ</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="development__stages">
+				<div class="container">
+					<div class="development__stages-title">
+						<h1>Этапы разработки</h1>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-circle-box">
+								<div class="development__stages-circle-img">
+									<img class="animation-icon" src="images/circle.svg" alt="">
+								</div>
+								<div class="development__stages-img">
+									<img src="images/development__stages-img1.png" alt="">
+								</div>
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img1.svg" alt="">
+									<h4>Сбор требований</h4>
+								</div>
+								<p>Детальное изучение требований, ресурсов и исходной информации по проекту и формирование
+									технического задания на разработку ПО.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-img">
+								<img src="images/development__stages-img2.png" alt="">
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img2.svg" alt="">
+									<h4>UI/UX Дизайн</h4>
+								</div>
+								<p>Разработка современного функционального и удобного дизайна
+									с применением новейших инструментов.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-img">
+								<img src="images/development__stages-img3.png" alt="">
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img3.svg" alt="">
+									<h4>Прототип (MVP)</h4>
+								</div>
+								<p>В результате проектирования формируется прототип и отправляется для разработки продукта
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-circle-box">
+								<div class="development__stages-code-img">
+									<img class="animation-icon" src="images/code.svg" alt="">
+								</div>
+								<div class="development__stages-img">
+									<img src="images/development__stages-img4.png" alt="">
+								</div>
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img4.svg" alt="">
+									<h4>Разработка</h4>
+								</div>
+								<p>Процесс разработки системы интеллектуального учета, мобильного приложения или веб-сайта в
+									режиме максимальной прозрачности.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-img">
+								<img src="images/development__stages-img5.png" alt="">
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img5.svg" alt="">
+									<h4>Тестирование</h4>
+								</div>
+								<p>В ходе тестовых запусков обеспечиваем полную отказоустойчивость продукта.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-circle-box">
+								<div class="development__stages-rocket-img">
+									<img class="animation-icon" src="images/rocket.svg" alt="">
+								</div>
+								<div class="development__stages-img">
+									<img src="images/development__stages-img6.png" alt="">
+								</div>
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img6.svg" alt="">
+									<h4>Развертывание</h4>
+								</div>
+								<p>Запуск готового продукта в работу (ИСУ, сайта, приложения).</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 mb">
+							<div class="development__stages-circle-box">
+								<div class="development__stages-setting-img">
+									<img class="animation-icon" src="images/setting.svg" alt="">
+								</div>
+								<div class="development__stages-img">
+									<img src="images/development__stages-img7.png" alt="">
+								</div>
+							</div>
+							<div class="development__stages-content">
+								<div class="development__stages-content--box d-flex align-items-center">
+									<img src="images/number-img7.svg" alt="">
+									<h4>Поддержка и обслуживание</h4>
+								</div>
+								<p>Обеспечиваем полную техническую поддержку и сопровождение по всем вопросам, возникающим
+									после развертывания.</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6 development__stages-btn">
+							<a href="#!">Оставить заявку</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<section class="mobile__price">
+				<div class="mobile-sec__circle-box">
+					<img class="mobile-sec__circle-img3 animation-icon" src="images/circle1.svg" alt="">
+				</div>
+				<div class="container">
+					<div class="mobile__price-title__text text-center">
+						<h1>Стоимость разработки мобильных приложений</h1>
+						<p>
+							Мы собрали стандартные элементы приложений в пакеты, для
+							примерного понимания стоимости разработки. Чтобы заказать
+							мобильное приложение свяжитесь с нами, мы вас проконсультируем,
+							проведем аудит ценовых предложений других студий. Ниже цены на
+							типовые приложения.
+						</p>
+					</div>
+					<div class="row justify-content-center">
+						<!-- price card series-1 -->
+						<div class="col-lg-4 col-md-6">
+							<div class="mobile__price-card">
+								<div class="mobile__price-card-bookmark">
+									<svg width="21" height="38" viewBox="0 0 21 38" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 38V0H21V38L10.5 27.3824L0 38Z" fill="#3980FF" />
+									</svg>
+								</div>
+								<div class="mobile__price-card__title d-flex align-items-end justify-content-center">
+									<div class="mobile__price-card__img">
+										<img src="images/our-services-icon1.svg" alt="" />
+									</div>
+									<h3>Типовой</h3>
+								</div>
+								<div class="mobile__price-card__about d-flex align-items-center justify-content-between">
+									<div class="mobile__price-card__left">
+										<p>Каталог товаров или услуг</p>
+										<p>Сделать заказ</p>
+										<p>Новости и акции</p>
+										<p>Обратная связь</p>
+										<p>Контакты</p>
+									</div>
+									<div class="mobile__price-card__right">
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#3980FF" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+	
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#3980FF" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#3980FF" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#3980FF" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#3980FF" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+									</div>
+								</div>
+								<!-- mobile__price-card -->
+								<div class="mobile__price-card__price text-center">
+									<h4>1 000 000 руб.</h4>
+								</div>
+								<div class="mobile__price-card__btn text-center">
+									<button type="button">Заказать приложение</button>
+								</div>
+							</div>
+						</div>
+						<!-- price card series-2 -->
+						<div class="col-lg-4 col-md-6">
+							<div class="mobile__price-card">
+								<div class="mobile__price-card-bookmark">
+									<svg width="21" height="38" viewBox="0 0 21 38" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 38V0H21V38L10.5 27.3824L0 38Z" fill="#0C4AB3" />
+									</svg>
+								</div>
+								<div class="mobile__price-card__title d-flex justify-content-center align-items-end">
+									<div class="mobile__price-card__img mobile__price-card__img-2">
+										<img src="images/mobile-price-2.svg" alt="" />
+									</div>
+									<h3>Типовой</h3>
+								</div>
+								<div class="mobile__price-card__about d-flex align-items-center justify-content-between">
+									<div class="mobile__price-card__left">
+										<p>Программа лояльности</p>
+										<p>Push уведомления</p>
+										<p>Серверная часть</p>
+										<p>Панель управления</p>
+										<p>Чаты</p>
+									</div>
+	
+									<div class="mobile__price-card__right">
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#0C4AB3" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+	
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#0C4AB3" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#0C4AB3" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#0C4AB3" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#0C4AB3" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+									</div>
+								</div>
+								<div class="mobile__price-card__bottom-2">
+									<a class="mobile__price-card__more" href="#">показать полностью</a>
+									<!-- mobile__price-card -->
+									<div class="mobile__price-card__price mobile__price-card__price-2 text-center">
+										<h4>2 000 000 руб.</h4>
+									</div>
+									<div class="mobile__price-card__btn text-center">
+										<button type="button">Заказать приложение</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- price card series-3 -->
+						<div class="col-lg-4 col-md-6">
+							<div class="mobile__price-card mobile__price-card-3">
+								<div class="mobile__price-card-bookmark">
+									<svg width="21" height="38" viewBox="0 0 21 38" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M0 38V0H21V38L10.5 27.3824L0 38Z" fill="#EB5757" />
+									</svg>
+								</div>
+								<div
+									class="mobile__price-card__title mobile__price-card__title-3 d-flex justify-content-center align-items-end">
+									<div class="mobile__price-card__img mobile__price-card__img-3">
+										<img src="images/mobile-price-3.svg" alt="" />
+									</div>
+									<h3>Типовой</h3>
+								</div>
+								<div
+									class="mobile__price-card__about mobile__price-card__about-3 d-flex align-items-center justify-content-between">
+									<div class="mobile__price-card__left">
+										<p>Автоматизация бизнес-процессов</p>
+										<p>Сложные интеграции</p>
+										<p>Маркетплейс</p>
+										<p>Корпоративные решения</p>
+										<p>Smart TV, Kit, VR \ AR</p>
+									</div>
+	
+									<div class="mobile__price-card__right">
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#EB5757" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+	
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#EB5757" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#EB5757" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#EB5757" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+										<p>
+											<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<circle cx="10" cy="10" r="10" fill="#EB5757" />
+												<path fill-rule="evenodd" clip-rule="evenodd"
+													d="M13.7071 7.29289C14.0976 7.68342 14.0976 8.31658 13.7071 8.70711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071L6.29289 10.7071C5.90237 10.3166 5.90237 9.68342 6.29289 9.29289C6.68342 8.90237 7.31658 8.90237 7.70711 9.29289L9 10.5858L12.2929 7.29289C12.6834 6.90237 13.3166 6.90237 13.7071 7.29289Z"
+													fill="white" />
+											</svg>
+										</p>
+									</div>
+								</div>
+								<!-- mobile__price-card -->
+								<div class="mobile__price-card__bottom">
+									<a class="mobile__price-card__more" href="#">показать полностью</a>
+									<div class="mobile__price-card__price mobile__price-card__price-2 text-center">
+										<h4>3 000 000 руб.</h4>
+									</div>
+									<div class="mobile__price-card__btn mobile__price-card__btn-3 text-center">
+										<button type="button">Заказать приложение</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="run__sec">
+				<div class="run-sec__circle-box">
+					<img class="run-sec__circle-img1 animation-icon" src="images/big-circle.svg" alt="">
+					<img class="run-sec__circle-img2 animation-icon" src="images/big-circle2.svg" alt="">
+				</div>
+				<img src="images/run-bg.svg" alt="" class="bg-img">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Какие задачи поможет решить запуск мобильного приложения</h2>
+						</div>
+					</div>
+	
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="run__sec-block">
+								<div class="run__sec__block-name">
+									<span>1</span>
+									<h3>Повысить лояльность</h3>
+								</div>
+								<div class="run__sec__block-text">
+									<p>Мобильное приложение работает намного быстрее сайта и может выполнять многие функции
+										даже без интернета. Также здесь не нужно каждый раз авторизовываться, чтобы оформить
+										заказ или отследить его статус. Все это создает положительный пользовательский опыт.
+									</p>
+								</div>
+							</div>
+	
+							<div class="run__sec-block">
+								<div class="run__sec__block-name">
+									<span>2</span>
+									<h3>Автоматизировать продажи</h3>
+								</div>
+								<div class="run__sec__block-text">
+									<p>С приложением легче провести пользователя по каждому этапу воронки продаж. С помощью
+										автоматизации внутри интерфейса можно показывать ценность продукта, рассказывать о
+										новых функциях, делать допродажи и напоминать о себе с помощью пуш-уведомлений.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="run__sec-img">
+								<img src="images/phone-img.png" alt="">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="run__sec-block">
+								<div class="run__sec__block-name">
+									<span>3</span>
+									<h3>Сократить издержки</h3>
+								</div>
+								<div class="run__sec__block-text">
+									<p>Мобильный сервис помогает сэкономить на рекламном бюджете и дополнительных
+										сотрудниках. Например, многие маркетинговые акции можно проводить в самом приложении
+										и адаптировать рекламу под целевых пользователей, а часть работы службы поддержки
+										делегировать автоматическим чат-ботам.</p>
+								</div>
+							</div>
+	
+							<div class="run__sec-block">
+								<div class="run__sec__block-name">
+									<span>4</span>
+									<h3>Увеличить прибыль</h3>
+								</div>
+								<div class="run__sec__block-text">
+									<p>Повышение уровня клиентского сервиса, экономия на закупке рекламы на других площадках
+										и автоматизации процессов положительно скажется и на итоговой выручке. Вложения в
+										разработку приложения быстро окупятся, если интерфейс хорошо справляется со своими
+										задачами.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<section class="order__app">
+				<div class="order__app-box">
+					<img class="order__app__circle-img animation-icon" src="images/order-circle.png" alt="">
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 title">
+							<h2>Заказать приложение</h2>
+						</div>
+					</div>
+	
+					<form action="#!" method="POST" id="order__form">
+						<div class="row order__app-rov">
+							<div class="col-lg-6">
+								<div class="order__app-left">
+									<span>Бюджет проекта:</span>
+									<div class="order__app-price">
+										<div class="row">
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" checked="checked" />
+													<div class="control__indicator"></div>
+													<span class="num">20 000 — 50 000 руб.</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" />
+													<div class="control__indicator"></div>
+													<span class="num">20 000 — 50 000 руб.</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" />
+													<div class="control__indicator"></div>
+													<span class="num">20 000 — 50 000 руб.</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" />
+													<div class="control__indicator"></div>
+													<span class="num">20 000 — 50 000 руб.</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" />
+													<div class="control__indicator"></div>
+													<span class="num">20 000 — 50 000 руб.</span>
+												</label>
+											</div>
+											<div class="col-lg-6">
+												<label class="control control--radio">
+													<input type="radio" name="radio" />
+													<div class="control__indicator"></div>
+													<span class="num">20 000 — 50 000 руб.</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<div class="col-lg-5">
+								<div class="order__app-form">
+									<span>Контакты:</span>
+									<div class="form-group">
+										<input type="text" name="name" id="name" placeholder="Александр">
+									</div>
+									<div class="form-group">
+										<input type="tel" name="phone" id="phone" placeholder="Телефон">
+									</div>
+									<div class="form-group">
+										<textarea name="text" name="message" id="message" placeholder="Комментарий"></textarea>
+									</div>
+									<div class="form-btn">
+										<button type="submit" id="form__send__btn">Заказать обратный звонок</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer for__all">
+			<div class="container">
+				<div class="row">
+					<nav class="navbar navbar-expand-lg">
+						<a class="navbar-brand" href="#!"><img src="images/logo.svg" alt=""></a>
+						<div class="navbar-collapse">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link active" href="#!">Главная</a>
 								</li>
-								<li><a class="dropdown-item" href="#!">Something else here</a></li>
+								<li class="nav-item">
+									<a class="nav-link" href="#!">О нас</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#!">Наши услуги</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#!">Этапы работы</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#!">Стоимость</a>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										Ещё <img src="images/dropdown-icon.svg" alt="">
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li><a class="dropdown-item" href="#!">Action</a></li>
+										<li><a class="dropdown-item" href="#!">Another action</a></li>
+										<li>
+											<hr class="dropdown-divider">
+										</li>
+										<li><a class="dropdown-item" href="#!">Something else here</a></li>
+									</ul>
+								</li>
 							</ul>
-						</li>
-					</ul>
-					<div class="navbar-right">
-						<div class="navbar-right-info">
-							<a href="tel:8 (499) 348-82-16" class="header-tel">8 (499) 348-82-16</a>
-							<a href="mailto:hello@softerio.ru" class="header-mail">hello@softerio.ru</a>
-						</div>
-						<div class="navbar-right-social">
-							<a href="#!"> <img src="images/wt-icon.svg" alt=""></a>
-							<a href="#!"><img src="images/tg-icon.svg" alt=""></a>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
-	
-	<main>
-		<section class="main-sec">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="main-text">
-							<h2>Разработка мобильных приложений и сервисов</h2>
-							<p><img src="images/main-icon.svg" alt=""> Знаем, как решить вашу задачу оптимальным способом</p>
-							<p><img src="images/main-icon2.svg" alt=""> Подберем подходящее решение с учетом целей и возможностей</p>
-						</div>
-						<div class="main-btns">
-							<a href="#!" class="red-btn">Заказать приложение</a>
-							<a href="#!" class="blue-btn">Онлайн-консультация</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="our__services">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 title our__services-title">
-						<h2>Наши услуги</h2>
-						<p>Разработка мобильных приложений и веб-проектов для бизнеса и стартапов</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4">
-						<div class="our__services-block">
-							<div class="our__services__block-text">
-								<div class="our__services__block-img">
-									<img src="images/our-services-icon1.svg" alt="" height="100px">
+							<div class="navbar-right">
+								<div class="navbar-right-info">
+									<a href="tel:8 (499) 348-82-16" class="header-tel">8 (499) 348-82-16</a>
+									<a href="mailto:hello@softerio.ru" class="header-mail">hello@softerio.ru</a>
 								</div>
-								<p>Разработка мобильных приложений</p>
-							</div>
-							<div class="our__services__block-content">
-								<p>Разрабатываем сайты персонально под ваш бизнес. Анализируем рынок и целевую аудиторию в соответствии с задачами, которые вы хотите решить с помощью веб-сайта.</p>
-								<p>Создаём web-сервисы для любого направления бизнеса: продажи, коммуникации, управление, серверную часть и API, гибкие административные инструменты для управления приложениями и сбора статистики.</p>
-								<p>Вы получаете продукт, привлекательный для пользователей и функциональный для вас.</p>
-							</div>
-							<div class="our__services__block-skills">
-								<span>iOS</span>
-								<span>Android</span>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-lg-4">
-						<div class="our__services-block">
-							<div class="our__services__block-text">
-								<div class="our__services__block-img">
-									<img src="images/our-services-icon-3.svg" alt="" height="100px">
+								<div class="navbar-right-social">
+									<a href="#!"> <img src="images/wt-icon.svg" alt=""></a>
+									<a href="#!"><img src="images/tg-icon.svg" alt=""></a>
 								</div>
-								<p class="our__services__block-aftanom">Разработка мобильных приложений</p>
-							</div>
-							<div class="our__services__block-content">
-								<p>Разрабатываем сайты персонально под ваш бизнес. Анализируем рынок и целевую аудиторию в соответствии с задачами, которые вы хотите решить с помощью веб-сайта.</p>
-								<p>Создаём web-сервисы для любого направления бизнеса: продажи, коммуникации, управление, серверную часть и API, гибкие административные инструменты для управления приложениями и сбора статистики.</p>
-								<p>Вы получаете продукт, привлекательный для пользователей и функциональный для вас.</p>
-							</div>
-							<div class="our__services__block-skills">
-								<span>Frontend</span>
-								<span>Backend</span>
 							</div>
 						</div>
-					</div>
-					
-					<div class="col-lg-4">
-						<div class="our__services-block">
-							<div class="our__services__block-text">
-								<div class="our__services__block-img">
-									<img src="images/our-services-icon3.svg" alt="" height="100px">
-								</div>
-								<p>Разработка мобильных приложений</p>
-							</div>
-							<div class="our__services__block-content">
-								<p>Разрабатываем сайты персонально под ваш бизнес. Анализируем рынок и целевую аудиторию в соответствии с задачами, которые вы хотите решить с помощью веб-сайта.</p>
-								<p>Создаём web-сервисы для любого направления бизнеса: продажи, коммуникации, управление, серверную часть и API, гибкие административные инструменты для управления приложениями и сбора статистики.</p>
-								<p>Вы получаете продукт, привлекательный для пользователей и функциональный для вас.</p>
-							</div>
-							<div class="our__services__block-skills">
-								<span>Дизайн</span>
-								<span>ТЗ</span>
-							</div>
-						</div>
-					</div>
+					</nav>
 				</div>
 			</div>
-		</section>
-	</main>
-	
-	<!-- Development stages start -->
-	<div class="development__stages">
-		<div class="container">
-			<div class="development__stages-title">
-				<h1>Этапы разработки</h1>
-			</div>
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img1.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img1.svg" alt="">
-							<h4>Сбор требований</h4>
-						</div>
-						<p>Детальное изучение требований, ресурсов и исходной информации по проекту и формирование технического задания на разработку ПО.</p>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img2.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img2.svg" alt="">
-							<h4>UI/UX Дизайн</h4>
-						</div>
-						<p>Разработка современного функционального и удобного дизайна 
-							с применением новейших инструментов.</p>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img3.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img3.svg" alt="">
-							<h4>Прототип (MVP)</h4>
-						</div>
-						<p>В результате проектирования формируется прототип и отправляется для разработки продукта</p>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img4.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img4.svg" alt="">
-							<h4>Разработка</h4>
-						</div>
-						<p>Процесс разработки системы интеллектуального учета, мобильного приложения или веб-сайта в режиме максимальной прозрачности.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row rov__top">
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img5.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img5.svg" alt="">
-							<h4>Тестирование</h4>
-						</div>
-						<p>В ходе тестовых запусков обеспечиваем полную отказоустойчивость продукта.</p>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img6.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img6.svg" alt="">
-							<h4>Развертывание</h4>
-						</div>
-						<p>Запуск готового продукта в работу (ИСУ, сайта, приложения).</p>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="development__stages-img">
-						<img src="images/development__stages-img7.png" alt="">
-					</div>
-					<div class="development__stages-content">
-						<div class="development__stages-content--box d-flex align-items-center">
-							<img src="images/number-img7.svg" alt="">
-							<h4>Поддержка и обслуживание</h4>
-						</div>
-						<p>Обеспечиваем полную техническую поддержку и сопровождение по всем вопросам, возникающим после развертывания.</p>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="development__stages-btn">
-						<a href="#!">Оставить заявку</a>
-					</div>
-				</div>
-			</div>
-		</div>
+		</footer>
 	</div>
-	<!-- Development stages start -->
-	
-	
-	<section class="run__sec">
-		<img src="images/run-bg.svg" alt="" class="bg-img">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 title">
-					<h2>Какие задачи поможет решить запуск мобильного приложения</h2>
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="run__sec-block">
-						<div class="run__sec__block-name">
-							<span>1</span>
-							<h3>Повысить лояльность</h3>
-						</div>
-						<div class="run__sec__block-text">
-							<p>Мобильное приложение работает намного быстрее сайта и может выполнять многие функции даже без интернета. Также здесь не нужно каждый раз авторизовываться, чтобы оформить заказ или отследить его статус. Все это создает положительный пользовательский опыт.</p>
-						</div>
-					</div>
-
-					<div class="run__sec-block">
-						<div class="run__sec__block-name">
-							<span>2</span>
-							<h3>Автоматизировать продажи</h3>
-						</div>
-						<div class="run__sec__block-text">
-							<p>С приложением легче провести пользователя по каждому этапу воронки продаж. С помощью автоматизации внутри интерфейса можно показывать ценность продукта, рассказывать о новых функциях, делать допродажи и напоминать о себе с помощью пуш-уведомлений.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="run__sec-img">
-						<img src="images/phone-img.png" alt="">
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="run__sec-block">
-						<div class="run__sec__block-name">
-							<span>3</span>
-							<h3>Сократить издержки</h3>
-						</div>
-						<div class="run__sec__block-text">
-							<p>Мобильный сервис помогает сэкономить на рекламном бюджете и дополнительных сотрудниках. Например, многие маркетинговые акции можно проводить в самом приложении и адаптировать рекламу под целевых пользователей, а часть работы службы поддержки делегировать автоматическим чат-ботам.</p>
-						</div>
-					</div>
-
-					<div class="run__sec-block">
-						<div class="run__sec__block-name">
-							<span>4</span>
-							<h3>Увеличить прибыль</h3>
-						</div>
-						<div class="run__sec__block-text">
-							<p>Повышение уровня клиентского сервиса, экономия на закупке рекламы на других площадках и автоматизации процессов положительно скажется и на итоговой выручке. Вложения в разработку приложения быстро окупятся, если интерфейс хорошо справляется со своими задачами.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="order__app">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 title">
-					<h2>Заказать приложение</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="order__app-left">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				
-			</div>
-		</div>
-	</footer>
-</div>
-
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script>
-<script src="libs/bootstrap5/bootstrap.min.js"></script>
-<script src="js/swiper-bundle.min.js"></script>
-<script src="js/script.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="libs/bootstrap5/bootstrap.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
