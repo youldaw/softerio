@@ -18,6 +18,13 @@
 			<div class="container">
 				<nav class="navbar navbar-expand-lg">
 					<a class="navbar-brand" href="#!"><img src="images/logo.svg" alt=""></a>
+					<div class="mob">
+						<a href="#!" class="menu-opener">
+							<span class="one"></span>
+							<span class="two"></span>
+							<span class="three"></span>
+						</a>
+					</div>
 					<div class="navbar-collapse">
 						<ul class="navbar-nav">
 							<li class="nav-item">
@@ -35,25 +42,41 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#!">Стоимость</a>
 							</li>
-							<li class="nav-item dropdown">
+							<li class="nav-item dropdown pc">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 									data-bs-toggle="dropdown" aria-expanded="false">
 									Ещё <img src="images/dropdown-icon.svg" alt="">
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#!">Action</a></li>
-									<li><a class="dropdown-item" href="#!">Another action</a></li>
-									<li>
-										<hr class="dropdown-divider">
-									</li>
-									<li><a class="dropdown-item" href="#!">Something else here</a></li>
+									<li><a class="dropdown-item" href="#!">Вакансии</a></li>
+									<li><a class="dropdown-item" href="#!">Статьи</a></li>
 								</ul>
+							</li>
+							<li class="nav-item mob">
+								<a class="nav-link" href="#!">Вакансии</a>
+							</li>
+							<li class="nav-item mob">
+								<a class="nav-link" href="#!">Статьи</a>
 							</li>
 						</ul>
 						<div class="navbar-right">
 							<div class="navbar-right-info">
-								<a href="tel:8 (499) 348-82-16" class="header-tel">8 (499) 348-82-16</a>
-								<a href="mailto:hello@softerio.ru" class="header-mail">hello@softerio.ru</a>
+								<a href="tel:8 (499) 348-82-16" class="header-tel">
+									<span class="mob">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M16.575 19.108C16.5 19.108 16.425 19.108 16.3416 19.0997C13.65 18.808 11.0333 17.8747 8.77498 16.408C6.67498 15.0747 4.85832 13.258 3.52498 11.158C2.05832 8.89134 1.12498 6.26634 0.841649 3.57467C0.808315 3.21634 0.849982 2.87467 0.958315 2.54134C1.06665 2.20801 1.24998 1.90801 1.48332 1.64967C1.71665 1.39134 1.99998 1.19134 2.31665 1.04967C2.64165 0.908008 2.98332 0.833008 3.33332 0.833008H5.83332C6.41665 0.833008 7.01665 1.04134 7.48332 1.44134C7.94165 1.83301 8.24165 2.38301 8.32498 2.98301C8.42498 3.72467 8.60832 4.45801 8.86665 5.14967C9.03332 5.59967 9.07498 6.08301 8.96665 6.54967C8.86665 7.01634 8.63332 7.44967 8.29998 7.78301L7.69998 8.38301C8.68332 9.91634 9.98332 11.2247 11.525 12.208L12.125 11.608C12.4667 11.2663 12.9 11.033 13.3666 10.9413C13.8333 10.8413 14.3166 10.8747 14.7666 11.0413C15.4583 11.2997 16.1916 11.483 16.925 11.583C17.5416 11.6663 18.0917 11.9747 18.4916 12.4413C18.8833 12.908 19.1 13.4997 19.0833 14.108V16.5997C19.0833 16.9497 19.0166 17.283 18.875 17.608C18.7333 17.9247 18.525 18.2163 18.275 18.4497C18.0166 18.683 17.7167 18.8663 17.3833 18.9747C17.1166 19.0663 16.85 19.108 16.575 19.108ZM5.84998 2.49967H5.84165H3.33332C3.21665 2.49967 3.10832 2.52467 2.99998 2.57467C2.89165 2.61634 2.79165 2.68301 2.71665 2.76634C2.63332 2.84967 2.57498 2.94967 2.54165 3.06634C2.50832 3.17467 2.49165 3.29134 2.49998 3.40801C2.75832 5.83301 3.59998 8.19967 4.92498 10.258C6.13332 12.158 7.77498 13.7997 9.67498 15.008C11.725 16.3413 14.0916 17.1747 16.5083 17.4413C16.6083 17.4497 16.725 17.433 16.8333 17.3997C16.9417 17.3663 17.0416 17.2997 17.1333 17.2247C17.225 17.1497 17.2916 17.0497 17.3333 16.9413C17.3833 16.833 17.4 16.7163 17.4 16.5997V14.0997C17.4 14.0913 17.4 14.083 17.4 14.083C17.4083 13.8747 17.3333 13.683 17.2 13.5247C17.0666 13.3663 16.8833 13.2663 16.6833 13.2413C15.8333 13.133 14.9833 12.9163 14.1666 12.6163C14.0166 12.558 13.85 12.5497 13.7 12.583C13.5416 12.6163 13.4 12.6913 13.2833 12.808L12.2333 13.8663C11.9667 14.133 11.5583 14.183 11.2333 13.9997C9.01665 12.7413 7.18332 10.8997 5.91665 8.69134C5.74165 8.34134 5.79165 7.93301 6.05832 7.66634L7.11665 6.60801C7.22498 6.49967 7.29998 6.35801 7.33332 6.19967C7.36665 6.04134 7.35832 5.88301 7.29998 5.73301C6.99165 4.91634 6.78332 4.06634 6.66665 3.20801C6.64165 3.01634 6.54165 2.83301 6.39165 2.69967C6.24165 2.57467 6.04998 2.49967 5.84998 2.49967Z" fill="black"/>
+										</svg>											
+									</span> 
+									8 (499) 348-82-16
+								</a>
+								<a href="mailto:hello@softerio.ru" class="header-mail">
+									<span class="mob">
+										<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M3.33337 4.16667C2.87694 4.16667 2.50004 4.54357 2.50004 5V15C2.50004 15.4564 2.87694 15.8333 3.33337 15.8333H16.6667C17.1231 15.8333 17.5 15.4564 17.5 15V5C17.5 4.54357 17.1231 4.16667 16.6667 4.16667H3.33337ZM0.833374 5C0.833374 3.6231 1.95647 2.5 3.33337 2.5H16.6667C18.0436 2.5 19.1667 3.6231 19.1667 5V15C19.1667 16.3769 18.0436 17.5 16.6667 17.5H3.33337C1.95647 17.5 0.833374 16.3769 0.833374 15V5Z" fill="black"/>
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M0.983964 4.52251C1.24789 4.14547 1.7675 4.05378 2.14454 4.3177L9.99999 9.81652L17.8554 4.3177C18.2325 4.05378 18.7521 4.14547 19.016 4.52251C19.2799 4.89955 19.1882 5.41916 18.8112 5.68309L10.4779 11.5164C10.1909 11.7173 9.80904 11.7173 9.52211 11.5164L1.18877 5.68309C0.81173 5.41916 0.720035 4.89955 0.983964 4.52251Z" fill="black"/>
+										</svg>											
+									</span> 
+									hello@softerio.ru</a>
 							</div>
 							<div class="navbar-right-social">
 								<a href="#!"> <img src="images/wt-icon.svg" alt=""></a>
@@ -100,7 +123,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6">
 							<div class="our__services-block">
 								<div class="our__services__block-text">
 									<div class="our__services__block-img">
@@ -125,7 +148,7 @@
 							</div>
 						</div>
 
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6">
 							<div class="our__services-block">
 								<div class="our__services__block-text">
 									<div class="our__services__block-img">
@@ -150,7 +173,7 @@
 							</div>
 						</div>
 
-						<div class="col-lg-4">
+						<div class="col-lg-4 col-md-6">
 							<div class="our__services-block">
 								<div class="our__services__block-text">
 									<div class="our__services__block-img">
@@ -662,49 +685,49 @@
 	
 					<form action="#!" method="POST" id="order__form">
 						<div class="row order__app-rov">
-							<div class="col-lg-6">
+							<div class="col-xl-6 col-lg-7">
 								<div class="order__app-left">
 									<span>Бюджет проекта:</span>
 									<div class="order__app-price">
 										<div class="row">
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio"/>
+													<input type="radio" name="budget"/>
 													<div class="control__indicator"></div>
 													<span class="num">20 000 — 50 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio" />
+													<input type="radio" name="budget" />
 													<div class="control__indicator"></div>
 													<span class="num">50 000 — 100 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio" />
+													<input type="radio" name="budget" />
 													<div class="control__indicator"></div>
 													<span class="num">100 000 — 500 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio" checked="checked"/>
+													<input type="radio" name="budget" checked="checked"/>
 													<div class="control__indicator"></div>
 													<span class="num">500 000 — 1 000 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio" />
+													<input type="radio" name="budget" />
 													<div class="control__indicator"></div>
 													<span class="num">1 000 000 руб. — 2 000 000 руб.</span>
 												</label>
 											</div>
 											<div class="col-lg-6">
 												<label class="control control--radio">
-													<input type="radio" name="radio" />
+													<input type="radio" name="budget" />
 													<div class="control__indicator"></div>
 													<span class="num">2 000 000 руб. — 3 000 000 руб.</span>
 												</label>
@@ -714,7 +737,7 @@
 								</div>
 							</div>
 	
-							<div class="col-lg-5">
+							<div class="col-xl-5 col-lg-5">
 								<div class="order__app-form">
 									<span>Контакты:</span>
 									<div class="form-group">
@@ -760,17 +783,13 @@
 									<a class="nav-link" href="#!">Стоимость</a>
 								</li>
 								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
 										data-bs-toggle="dropdown" aria-expanded="false">
 										Ещё <img src="images/dropdown-icon.svg" alt="">
 									</a>
 									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="#!">Action</a></li>
-										<li><a class="dropdown-item" href="#!">Another action</a></li>
-										<li>
-											<hr class="dropdown-divider">
-										</li>
-										<li><a class="dropdown-item" href="#!">Something else here</a></li>
+										<li><a class="dropdown-item" href="#!">Вакансии</a></li>
+										<li><a class="dropdown-item" href="#!">Статьи</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -789,6 +808,8 @@
 				</div>
 			</div>
 		</footer>
+
+		<a id="back-top"></a>
 	</div>
 
 	<script src="js/jquery-3.3.1.min.js"></script>
