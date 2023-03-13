@@ -9,6 +9,12 @@ $(function () {
         $('.navbar-collapse').toggleClass('active');
     });
 
+    $('.order__app-budget').on('click', function (e) {
+        e.preventDefault();
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+    });
+
     // navbar hover
     $('ul.navbar-nav li.dropdown').hover(function () {
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);

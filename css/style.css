@@ -1046,7 +1046,7 @@ footer {
 		z-index: 100;
 		background: #fff;
 		flex-direction: column;
-		padding: 30px 0 50px;
+		padding: 10px 0 50px;
 		transition: .5s all ease;
 	}
 	header .navbar .navbar-collapse.active {
@@ -1058,44 +1058,44 @@ footer {
 	header {
 		position: relative;
 	}
-	.for__all .navbar .nav-item {
+	header .navbar .nav-item {
 		margin-right: 0;
 		width: 100%;
 		border-top: 1px solid #E0E0E0;
 	}
-	.for__all .navbar .nav-item:last-child {
+	header .navbar .nav-item:last-child {
 		border-bottom: 1px solid #E0E0E0;
 	}
 	.navbar-nav {
 		width: 100%;
 	}
-	.for__all .navbar .nav-item .nav-link {
+	header .navbar .nav-item .nav-link {
 		padding: 20px 50px;
 		font-size: 16px;
 	}
-	.for__all .navbar .nav-item .nav-link.active,
-	.for__all .navbar .nav-item .nav-link:hover {
+	header .navbar .nav-item .nav-link.active,
+	header .navbar .nav-item .nav-link:hover {
 		background: rgba(57, 128, 255, 0.12);
 	}
-	.for__all .navbar-right {
+	header .navbar-right {
 		margin-top: 25px;
 	}
-	.for__all .navbar-right .navbar-right-info a {
+	header .navbar-right .navbar-right-info a {
 		display: flex;
 		align-items: center;
 	}
-	.for__all .navbar-right .navbar-right-info a span {
+	header .navbar-right .navbar-right-info a span {
 		display: flex;
 		align-items: center;
 		margin-right: 10px;
 	}
-	.for__all .navbar-right .navbar-right-info .header-tel {
+	header .navbar-right .navbar-right-info .header-tel {
 		margin-bottom: 8px;
 	}
-	.for__all .navbar-right {
+	header .navbar-right {
 		align-items: center;
 	}
-	.for__all .navbar-right .navbar-right-info {
+	header .navbar-right .navbar-right-info {
 		margin-bottom: 30px;
 	}
 	.main-sec .main-sec__circle-img1 {
@@ -1116,9 +1116,31 @@ footer {
 	.our__services .our__services-title {
 		margin-bottom: 20px;
 	}
+	.our__rov {
+		justify-content: center;
+	}
+	.run__sec .run__sec-block {
+		margin-bottom: 35px;
+	}
+	.run__sec .run__sec-img {
+		text-align: right;
+	}
+	.run__sec .run__sec-img img {
+		width: 85%;
+	}
+	.control {
+		height: 60px;
+	}
 }
 
 @media (max-width: 768px) {
+	.run__sec .run-sec__circle-img2 {
+		left: 0;
+		top: -100px;
+	}
+	.main-sec .main-sec__circle-img2 {
+		right: 0;
+	}
 	.mobile__price .mobile__price-title__text h1 {
 		max-width: 100%;
 		font-size: 40px;
@@ -1137,6 +1159,9 @@ footer {
 	}
 	.our__services .our__services-title p{
 		margin-left: 0;
+	}
+	.mobile__price .mobile-sec__circle-img3 {
+		top: -80px;
 	}
 }
 @media (max-width: 470px) {
